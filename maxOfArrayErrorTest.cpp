@@ -38,5 +38,5 @@ int main() {
   assertEquals(310,
 	       maxOfArray(f,7), 
 	       "maxOfArray(f,7)" );  
-  return -42;
+  return 0;
 }

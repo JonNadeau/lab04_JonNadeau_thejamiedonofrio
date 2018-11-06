@@ -29,5 +29,5 @@ int main() {
 	       maxOfArray(mix,10), 
 	       "maxOfArray(mix,10)" );
 
-  return -42;
+  return 0;
 }
