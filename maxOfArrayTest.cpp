@@ -19,6 +19,14 @@ int main() {
 	       maxOfArray(fiveInts,5), 
 	       "maxOfArray(fiveInts,5)" ); 
 
+  assertEquals(12,
+	       maxOfArray(fiveInts,2), 
+	       "maxOfArray(fiveInts,2)" ); 
+
+  assertEquals(12,
+	       maxOfArray(fiveInts,3), 
+	       "maxOfArray(fiveInts,3)" ); 
+
   int meaning[] = {42};
   assertEquals(42,
 	       maxOfArray(meaning,1), 
