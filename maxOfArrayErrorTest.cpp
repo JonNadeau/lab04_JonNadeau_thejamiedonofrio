@@ -5,7 +5,7 @@ int main() {
 
   int empty[] = {};
   // expect this function to result in message to cerr and exit(1);
-cerr<<"ERROR:  maxOfArray called with size < 1";
+cerr<<"ERROR: maxOfArray called with size < 1";
 exit(1);
   
   assertEquals(0,
