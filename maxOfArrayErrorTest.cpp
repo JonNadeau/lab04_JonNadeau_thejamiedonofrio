@@ -1,6 +1,9 @@
 #include "arrayFuncs.h"
 #include "tddFuncs.h"
 
+#include <cstdlib>
+#include <iostream>
+
 int main() {
 
   int empty[] = {};
