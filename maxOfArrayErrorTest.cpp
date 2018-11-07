@@ -11,7 +11,7 @@ int main() {
 //cerr<<"ERROR: maxOfArray called with size < 1";
 //exit(1);
   
-  assertEquals("ERROR: maxOfArray called with size < 1",
+  assertEquals(0,
 	       maxOfArray(empty,0), 
 	       "maxOfArray(empty,0)" ); 
   return -42;
