@@ -4,8 +4,11 @@
 
 int maxOfArray(int a[], int size) {
 
-	if(size==0)
-		return 0;
+	if(size < 1){
+		cerr<<"ERROR: maxOfArray called with size < 1";
+		exit(1);
+	}
+
 	int max=a[0];
 	for(int i=1; i<size; i++){
 		if(a[i]>max)
